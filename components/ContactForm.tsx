@@ -2,10 +2,35 @@ import styled from 'styled-components'
 import Button from './Button'
 import Image from 'next/image'
 import Input from './Input'
-import fields from './../data/fields'
 import { useState } from 'react'
 
 export default function ContactForm() {
+  const fields = [
+    {
+      label: 'Full name',
+      id: 'fullName',
+      placeholder: 'e.g. John Doe',
+      type: 'text',
+    },
+    {
+      label: 'Your email',
+      id: 'email',
+      placeholder: 'e.g. john@doe.com',
+      type: 'email',
+    },
+    {
+      label: 'Phone',
+      id: 'phone',
+      placeholder: 'e.g. +92 333 23 23 233',
+      type: 'tel',
+    },
+    {
+      label: 'Message',
+      id: 'message',
+      placeholder: 'Your message...',
+      isTextArea: true,
+    },
+  ]
   const formSparkKey = process.env.FORMSPARK_URL
   const [formSubmitted, setFormSubmitted] = useState(() => false)
   const [sending, setSending] = useState(() => false)
@@ -59,8 +84,19 @@ export default function ContactForm() {
         />
       ))}
       <Button type="submit" disabled={formSubmitted}>
-        {sending ? <Image src="/spinner.svg" loading="lazy" width={24} height={24} /> : formSubmitted ? 'Submitted' : <>Send message &rarr;</>
-        }
+        {sending ? (
+          <Image
+            alt="spinner"
+            src="/spinner.svg"
+            loading="lazy"
+            width={24}
+            height={24}
+          />
+        ) : formSubmitted ? (
+          'Submitted'
+        ) : (
+          <>Send message &rarr;</>
+        )}
       </Button>
     </StyledForm>
   )

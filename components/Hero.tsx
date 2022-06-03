@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import Button from './Button'
 import Container from './Container'
-import useResponsive from './../hooks/useResponsive'
+import useResponsive from '../hooks/useResponsive'
 
 export default function Hero() {
   const isMobile = useResponsive(600)

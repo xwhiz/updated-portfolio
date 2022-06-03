@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import { primaryColor, primaryColorDarked } from '../data/colors'
+
+const primaryColor = '#349ff3'
+const primaryColorDarked = '#2f8fdb'
 
 export default styled.button<{
   isOutlined?: boolean

@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import PageHead from './components/PageHead'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Footer from './components/Footer'
-import Button from './components/Button'
-import Container from './components/Container'
+import PageHead from '../components/PageHead'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import Footer from '../components/Footer'
+import Button from '../components/Button'
+import Container from '../components/Container'
 import styled from 'styled-components'
 
 const Home: NextPage = () => {

@@ -1,11 +1,15 @@
 import Image from 'next/image'
 import styled from 'styled-components'
-import myDetails from '../data/myDetails'
 
 export default function MyContactDetails() {
+  const details = [
+    { imgUrl: '/phone.svg', text: '+92 342 1798 786' },
+    { imgUrl: '/mail.svg', text: 'muhammadhamzam1486@gmail.com' },
+    { imgUrl: '/location.svg', text: 'Yarhussain Swabi, Pakistan' },
+  ]
   return (
     <StyledDiv>
-      {myDetails.map((detail) => (
+      {details.map((detail) => (
         <Detail key={detail.text}>
           <Image
             src={detail.imgUrl}

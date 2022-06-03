@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styled from 'styled-components'
-import useResponsive from './../hooks/useResponsive'
+import useResponsive from '../hooks/useResponsive'
 
 interface IService {
   title: string

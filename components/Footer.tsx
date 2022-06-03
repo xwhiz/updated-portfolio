@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Container from './Container'
 import useResponsive from '../hooks/useResponsive'
-import { primaryColor } from './../data/colors'
+
+const primaryColor = '#349ff3'
 
 export default function Footer() {
   const isMobile = useResponsive(600)

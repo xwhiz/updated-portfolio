@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { black } from '../data/colors'
+
+const black = '#333'
 
 export default styled.button<{ isActive: boolean }>`
   width: 40px;

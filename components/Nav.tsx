@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-import { primaryColor } from './../data/colors'
+
+const primaryColor = '#349ff3'
 
 export default function Nav() {
   const links = [

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Link from 'next/link'
-import { primaryColorLighted } from '../data/colors'
-import Button from './Button'
+
+const primaryColorLighted = '#48a9f4'
 
 export default function FloatingNav({
   isActive,

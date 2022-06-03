@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Container from './components/Container'
-import MyContactDetails from './components/MyContactDetails'
-import ContactForm from './components/ContactForm'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Container from '../components/Container'
+import MyContactDetails from '../components/MyContactDetails'
+import ContactForm from '../components/ContactForm'
 
 export default function Work() {
   return (

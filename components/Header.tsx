@@ -5,7 +5,7 @@ import Container from './Container'
 import FloatingNav from './FloatingNav'
 import MenuButton from './MenuButton'
 import Nav from './Nav'
-import useResponsive from './../hooks/useResponsive'
+import useResponsive from '../hooks/useResponsive'
 
 export default function Header() {
   const [isActive, setIsActive] = useState(false)
