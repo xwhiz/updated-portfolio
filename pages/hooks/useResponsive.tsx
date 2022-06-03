@@ -12,7 +12,7 @@ export default function useResponsive(isWidth: number) {
       window.addEventListener('resize', handleResize)
       return () => window.removeEventListener('resize', handleResize)
     }
-  }, [])
+  }, [isWidth])
 
   return isRequiredWidth
 }

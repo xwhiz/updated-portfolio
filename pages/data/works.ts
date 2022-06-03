@@ -1,4 +1,4 @@
-export default [
+const works = [
   {
     title: 'Quiz app',
     description:
@@ -72,3 +72,4 @@ export default [
     size: { width: 340, height: 235 },
   },
 ]
+export default works

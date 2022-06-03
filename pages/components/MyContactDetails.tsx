@@ -9,6 +9,7 @@ export default function MyContactDetails() {
         <Detail key={detail.text}>
           <Image
             src={detail.imgUrl}
+            alt=""
             loading="lazy"
             placeholder="blur"
             blurDataURL="/blurData.png"

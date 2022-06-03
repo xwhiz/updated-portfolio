@@ -15,9 +15,10 @@ export default function SingleWork({ work }: { work: IWork }) {
     <StyledArticle>
       <div>
         <Image
+          src={work.imgSrc}
+          alt=""
           placeholder="blur"
           blurDataURL="/blurData.png"
-          src={work.imgSrc}
           width={work.size.width}
           height={work.size.height}
           layout="responsive"
@@ -27,7 +28,7 @@ export default function SingleWork({ work }: { work: IWork }) {
       <h2>{work.title}</h2>
       <p>{work.description}</p>
       <Button>
-        <a target="_blank" href={work.url}>
+        <a rel="noreferrer" target="_blank" href={work.url}>
           Visit site
         </a>
       </Button>

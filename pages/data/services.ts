@@ -1,4 +1,4 @@
-export default [
+const services = [
   {
     title: 'Hand-written code',
     description:
@@ -30,3 +30,5 @@ export default [
     imgUrl: '/mobile-friendly.svg',
   },
 ]
+
+export default services

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Button from './Button'
 import Container from './Container'
@@ -13,7 +12,7 @@ export default function Hero() {
     <StyledSection isMobile={isMobile}>
       <Container>
         <SectionRight>
-          <h1>Hello, I'm Hamza</h1>
+          <h1>Hello, I&apos;m Hamza</h1>
           <h3>UI/UX Designer and Developer</h3>
           <p>
             I create clean, decent, modern and attractive layouts for your

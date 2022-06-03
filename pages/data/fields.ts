@@ -1,4 +1,4 @@
-export default [
+const fields = [
   {
     label: 'Full name',
     id: 'fullName',
@@ -24,3 +24,4 @@ export default [
     isTextArea: true,
   },
 ]
+export default fields

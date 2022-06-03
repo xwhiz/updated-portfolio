@@ -14,24 +14,39 @@ export default function Footer() {
           <h3>Social links</h3>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://web.facebook.com/profile.php?id=100020512297430"
           >
-            <Image src="/facebook.svg" width={25} height={25} /> facebook
-          </a>
-          <a target="_blank" href="https://www.instagram.com/hey.hamzu.786/">
-            <Image src="/instagram.svg" width={25} height={25} /> instagram
-          </a>
-          <a target="_blank" href="https://twitter.com/HamzaKingmaker">
-            <Image src="/twitter.svg" width={25} height={25} /> twitter
-          </a>
-          <a target="_blank" href="https://github.com/hamza-student">
-            <Image src="/github.svg" width={25} height={25} /> github
+            <Image alt="" src="/facebook.svg" width={25} height={25} /> facebook
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/hey.hamzu.786/"
+          >
+            <Image alt="" src="/instagram.svg" width={25} height={25} />{' '}
+            instagram
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/HamzaKingmaker"
+          >
+            <Image alt="" src="/twitter.svg" width={25} height={25} /> twitter
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/hamza-student"
+          >
+            <Image alt="" src="/github.svg" width={25} height={25} /> github
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
             href="https://www.youtube.com/channel/UCr707nULNs7aAHP8M8hANZQ"
           >
-            <Image src="/youtube.svg" width={25} height={25} /> youtube
+            <Image alt="" src="/youtube.svg" width={25} height={25} /> youtube
           </a>
         </SocialLinks>
         <Links>

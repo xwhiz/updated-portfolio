@@ -12,7 +12,7 @@ export default function Work() {
       <section>
         <StyledContact>
           <h1>Get in touch</h1>
-          <p>Contact me for a quote, I'll respond in 24 hrs</p>
+          <p>Contact me for a quote, I&apos;ll respond in 24 hrs</p>
           <MyContactDetails />
           <ContactForm />
         </StyledContact>

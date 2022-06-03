@@ -21,6 +21,7 @@ export default function Service({
         <Image
           src={service.imgUrl}
           width={100}
+          alt=""
           height={100}
           loading="lazy"
           placeholder="blur"
