@@ -22,7 +22,7 @@ export default function Work() {
       title: 'Weather app',
       description:
         "It's a Weather web app. I had created it in REACTJS for my portfolio.",
-      imgSrc: '/weather-app-img.jpg',
+      imgSrc: '/weather-app-img.JPG',
       url: 'https://h-react-weather-app.netlify.com/',
       languages: ['HTML', 'CSS', 'React'],
       size: { width: 340, height: 235 },
@@ -31,7 +31,7 @@ export default function Work() {
       title: 'Todo app',
       description:
         'It’s a todo web app. I had created it in REACTJS for my portfolio.',
-      imgSrc: '/todo-app-img.jpg',
+      imgSrc: '/todo-app-img.JPG',
       url: 'https://h-react-todo-app.netlify.app/',
       languages: ['HTML', 'CSS', 'React'],
       size: { width: 340, height: 235 },
@@ -40,7 +40,7 @@ export default function Work() {
       title: 'Natours',
       description:
         "It's an imagenary project for a tour company. Here I have used a lot of layouts settings, I have used skewmorpishm in action.",
-      imgSrc: '/natours-img.jpg',
+      imgSrc: '/natours-img.JPG',
       url: 'http://h-natours.surge.sh/',
       languages: ['HTML', 'CSS', 'JavaScript'],
       size: { width: 340, height: 235 },
@@ -49,7 +49,7 @@ export default function Work() {
       title: 'Omnifood',
       description:
         "It's an imagenary project for a Hotel. Here I have used a lot of layouts settings.",
-      imgSrc: '/omni-food-img.jpg',
+      imgSrc: '/omni-food-img.JPG',
       url: 'https://omnifood-design.netlify.app/',
       languages: ['HTML', 'CSS', 'JavaScript'],
       size: { width: 340, height: 235 },
@@ -58,7 +58,7 @@ export default function Work() {
       title: 'Furniture store',
       description:
         "It's a website for a furniture store. I had designed and developed it in my internship.",
-      imgSrc: '/furniture-store-img.jpg',
+      imgSrc: '/furniture-store-img.JPG',
       url: 'http://furniture-store-ws.netlify.com/',
       languages: ['HTML', 'CSS', 'JavaScript'],
       size: { width: 340, height: 235 },
@@ -67,7 +67,7 @@ export default function Work() {
       title: 'Business site',
       description:
         'It’s a website for a business site. I had designed and developed it in my internship.',
-      imgSrc: '/business-site-img.jpg',
+      imgSrc: '/business-site-img.JPG',
       url: 'https://ws-bussiness-home-page.netlify.com/',
       languages: ['HTML', 'CSS', 'JavaScript'],
       size: { width: 340, height: 235 },
