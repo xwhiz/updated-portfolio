@@ -28,7 +28,7 @@ export default function SingleWork({ work }: { work: IWork }) {
       <h2>{work.title}</h2>
       <p>{work.description}</p>
       <Button>
-        <a rel="external" target="_blank" href={work.url}>
+        <a rel="noopener" target="_blank" href={work.url}>
           Visit site
         </a>
       </Button>
