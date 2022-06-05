@@ -1,36 +1,41 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styled from 'styled-components'
+import useResponsive from '../hooks/useResponsive'
 import Button from './Button'
 import Container from './Container'
-import useResponsive from '../hooks/useResponsive'
 
 export default function Hero() {
-  const isMobile = useResponsive(600)
+  const isMobile = useResponsive(768)
 
   return (
     <StyledSection isMobile={isMobile}>
       <Container>
         <SectionRight>
           <h1>Hello, I&apos;m Hamza</h1>
-          <h3>UI/UX Designer and Developer</h3>
+          <h2>UI/UX Designer and Developer</h2>
           <p>
             I create clean, decent, modern and attractive layouts for your
             design.
           </p>
-          <Button>
-            <Link href="/contact">Hire Me</Link>
-          </Button>
+          <StyledContainer>
+            <Button>
+              <Link href="/contact">Hire Me</Link>
+            </Button>
+            <Button isOutlined>
+              <Link href="/work">See my work &rarr;</Link>
+            </Button>
+          </StyledContainer>
         </SectionRight>
         <SectionLeft>
           <StyledImage
             priority
             placeholder="blur"
-            blurDataURL="/favicon-32x32.png"
-            src="/hamza.jpg"
+            blurDataURL="/blurData.png"
+            src="/hamza-4-cropped.png"
             alt="Hero"
-            width={500}
-            height={500}
+            width={433}
+            height={433}
           />
         </SectionLeft>
       </Container>
@@ -60,7 +65,7 @@ const SectionRight = styled.section`
     line-height: 1;
     color: #555;
   }
-  h3 {
+  h2 {
     font-size: 1.5rem;
     margin-bottom: 0.8rem;
     color: #555;
@@ -72,4 +77,10 @@ const SectionRight = styled.section`
 const SectionLeft = styled.section``
 const StyledImage = styled(Image)`
   border-radius: 0.5rem;
+  object-fit: cover;
+`
+const StyledContainer = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 `

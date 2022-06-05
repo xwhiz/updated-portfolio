@@ -5,7 +5,7 @@ import Container from '../components/Container'
 import MyContactDetails from '../components/MyContactDetails'
 import ContactForm from '../components/ContactForm'
 
-export default function Work() {
+export default function Contact() {
   return (
     <>
       <Header />

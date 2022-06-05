@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export default function useResponsive(isWidth: number) {
-  const [isRequiredWidth, setIsRequiredWidth] = useState(false)
+  const [isRequiredWidth, setIsRequiredWidth] = useState(true)
   useEffect(() => {
     if (window) {
       const handleResize = () => {

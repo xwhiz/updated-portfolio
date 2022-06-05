@@ -1,15 +1,24 @@
 import styled from 'styled-components'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Container from './Container'
 import FloatingNav from './FloatingNav'
 import MenuButton from './MenuButton'
 import Nav from './Nav'
 import useResponsive from '../hooks/useResponsive'
+import { useRouter } from 'next/router'
 
 export default function Header() {
   const [isActive, setIsActive] = useState(false)
-  const isMobile = useResponsive(500)
+  const [active, setActive] = useState('')
+  const router = useRouter()
+  const isMobile = useResponsive(600)
+
+  useEffect(() => {
+    const pathname = router.pathname.slice(1)
+    setActive(pathname.length === 0 ? 'home' : pathname)
+  }, [])
+
   const toggleMenu = () => {
     setIsActive(!isActive)
   }
@@ -23,7 +32,7 @@ export default function Header() {
         {isMobile ? (
           <FloatingNav toggleMenu={toggleMenu} isActive={isActive} />
         ) : (
-          <Nav />
+          <Nav active={active} />
         )}
         {isMobile && (
           <MenuButton isActive={isActive} onClick={toggleMenu}>

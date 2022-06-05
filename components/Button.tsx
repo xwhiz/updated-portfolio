@@ -22,6 +22,9 @@ export default styled.button<{
   &:hover {
     background-color: ${primaryColorDarked};
   }
+  &:active {
+    transform: translateY(1px);
+  }
   &:disabled {
     background-color: ${primaryColorDarked};
     opacity: 0.8;

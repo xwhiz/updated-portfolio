@@ -95,11 +95,11 @@ export default function Work() {
             <SingleWork key={i} work={work} />
           ))}
         </Container>
-        <Container>
-          <Button isFullWidth>
+        <div className="borders">
+          <Button>
             <Link href="/services">See my services &rarr;</Link>
           </Button>
-        </Container>
+        </div>
       </WorkContainer>
       <Footer />
     </>
@@ -116,8 +116,15 @@ const WorkContainer = styled.section`
     font-size: 2.4rem;
     margin-bottom: 1rem;
   }
-  & > div > button {
-    width: max(320px, 50%);
-    margin: 2rem auto;
+  & .borders {
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+  }
+  & > button {
+    width: min(75%, 300px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
 `
