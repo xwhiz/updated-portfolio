@@ -96,9 +96,11 @@ export default function Work() {
           ))}
         </Container>
         <div className="borders">
-          <Button>
-            <Link href="/services">See my services &rarr;</Link>
-          </Button>
+          <Container>
+            <Button>
+              <Link href="/services">See my services &rarr;</Link>
+            </Button>
+          </Container>
         </div>
       </WorkContainer>
       <Footer />
