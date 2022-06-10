@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 import Button from './Button'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import Link from 'next/link'
 
 interface IWork {
   title: string
@@ -11,6 +14,9 @@ interface IWork {
   size: { width: number; height: number }
 }
 export default function SingleWork({ work }: { work: IWork }) {
+  // const router = useRouter()
+
+  useEffect(() => {}, [])
   return (
     <StyledArticle>
       <div>
@@ -28,9 +34,9 @@ export default function SingleWork({ work }: { work: IWork }) {
       <h2>{work.title}</h2>
       <p>{work.description}</p>
       <Button>
-        <a rel="noreferrer" target="_blank" href={work.url}>
-          Visit site
-        </a>
+        <Link href={work.url}>
+          <a target="_blank">Visit site &rarr;</a>
+        </Link>
       </Button>
     </StyledArticle>
   )
