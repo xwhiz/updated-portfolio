@@ -2,7 +2,6 @@ import Head from "next/head";
 import type { NextPage } from "next";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 
