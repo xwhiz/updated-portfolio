@@ -13,8 +13,8 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="border-gray-200 bg-gray-50">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="border-gray-200">
+      <div className="container mx-auto flex flex-wrap items-center justify-between p-4">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -63,7 +63,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 hover:bg-gray-100 rounded md:bg-transparent md:text-blue-700"
+                className="block py-2 px-3 md:p-0 hover:bg-gray-100 rounded md:bg-transparent md:hover:text-blue-700 md:hover:bg-transparent"
                 aria-current="page"
               >
                 Home
