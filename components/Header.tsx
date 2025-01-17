@@ -1,12 +1,5 @@
-import styled from "styled-components";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import Container from "./Container";
-import FloatingNav from "./FloatingNav";
-import MenuButton from "./MenuButton";
-import Nav from "./Nav";
-import useResponsive from "../hooks/useResponsive";
-import { useRouter } from "next/router";
+import { useState } from "react";
 import Image from "next/image";
 
 export default function Header() {
