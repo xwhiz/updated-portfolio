@@ -17,63 +17,63 @@ const Home: NextPage = () => {
       image: "/pranary.png",
       title: "Pranary",
       description:
-        "A landing page for a business company that teaches and helps with Marketing, and Funding with AI.",
+        "Developed a dynamic landing page for Pranary, a company specializing in AI-driven marketing and funding solutions. This project involved creating a responsive and user-friendly interface to enhance client engagement.",
       link: "http://ec2-34-203-212-229.compute-1.amazonaws.com:3000",
     },
     {
       image: "/sentinel.png",
       title: "Sentinel AI",
       description:
-        "A landing page for Sentinel AI, which is a security intelligence company that provides security services using cutting edge AI.",
+        "Developed a sleek landing page for Sentinel AI, a security intelligence firm utilizing cutting-edge AI technologies. Focused on delivering a modern design that effectively communicates their advanced services.",
       link: "https://sentinel-website.vercel.app",
     },
     {
       image: "/natours.png",
       title: "Natours",
       description:
-        "Website for an imaginary tourism company with beautiful and sleek design. It utilizes Skewmorphism for creating of a very beautiful UI and UX.",
+        "Designed and implemented a website for an imaginary tourism company, featuring a clean and modern interface. Employed skeuomorphic design elements to elevate the user experience.",
       link: "https://natours-projects.netlify.app",
     },
     {
       image: "/onehealth.png",
       title: "One Health Orginization",
       description:
-        "The Molecular Parasitology & One Health Laboratory is a research-based laboratory that is working on the molecular epidemiology of parasitic diseases of animals and humans.",
+        "Created an informative website for a research-based laboratory focusing on the molecular epidemiology of parasitic diseases in animals and humans. Ensured the platform effectively conveys their mission and research focus.",
       link: "http://one-health-official.vercel.app",
     },
     {
       image: "/omnifood.png",
       title: "Omnifood",
       description:
-        "A website concept for an imaginary restaurant named Omnifood. It has food delivery service which is available 24/7.",
+        "Conceptualized and developed a website for Omnifood, an imaginary restaurant offering 24/7 food delivery services. The design emphasizes convenience and accessibility for users.",
       link: "https://omnifood-design.netlify.app",
     },
     {
       image: "/furniture-store-img.JPG",
       title: "Woodie Furniture Store",
       description:
-        "Website concept for a simple Furniture Store. They offer different variety of furniture and deliver them freely with money back guarantees.",
+        "Crafted a website concept for a furniture store providing a diverse range of products with free delivery and money-back guarantees. Focused on creating an inviting and trustworthy online presence.",
       link: "https://furniture-store-ws.netlify.app",
     },
     {
       image: "/business-site-img.JPG",
       title: "Innomerce",
       description:
-        "Website concept for business consultation business that provides services like auditing, legal and financial advice, Marketing reserach, and investments.",
+        "Developed a business consultation website offering services like auditing, legal and financial advice, marketing research, and investments. The design reflects professionalism and expertise.",
       link: "https://ws-bussiness-home-page.netlify.app",
     },
     {
       image: "/quiz-app.png",
       title: "Quizzacle",
       description:
-        "A Quiz application that dynamically fetch questions from an questions API based on provided difficulty, category, and question types.",
+        "Built a dynamic quiz application that fetches questions based on selected difficulty, category, and question types. Ensured an engaging and interactive user experience.",
       link: "https://quizzical-by-hamza.vercel.app",
     },
     {
       image: "/weather-app-img.JPG",
       title: "Weather App",
       description:
-        "A simple weather application that asks for GPS location and based on those coordinates, it fetches weather data. That weather data is then presented with beautiful icon and background image.",
+        "Developed a weather application that retrieves data based on the user's GPS location, presenting information with intuitive icons and background images for clarity.",
       link: "https://h-react-weather-app.netlify.app",
     },
   ];
@@ -178,8 +178,7 @@ const Home: NextPage = () => {
         <div className="flex-1">
           <h2 className="text-2xl mb-2 md:text-3xl">Software Developer</h2>
           <p className="text-gray-600 mb-8 max-w-prose text-sm">
-            Passionate Software developer with interest in building highly
-            efficient user experiences.
+            A dedicated software developer specializing in crafting highly efficient user experiences. My passion lies in merging innovative technology with intuitive design to deliver exceptional digital solutions.
           </p>
 
           <Link href="/#work">
