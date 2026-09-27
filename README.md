@@ -1,7 +1,12 @@
-# Hamza Portfolio site
+# Hamza — Portfolio
 
-It's my portfolio. It contains:
+Personal portfolio built with Next.js 16 (App Router), React 19 and Tailwind CSS 4.
 
-- Projects that I had done
-- My work features
+```bash
+npm install
+npm run dev     # http://localhost:3000
+npm run build
+npm run lint
+```
 
+Content (projects, roles, links) lives in `lib/data.ts`.
